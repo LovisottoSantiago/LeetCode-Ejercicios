@@ -12,7 +12,7 @@ public class TwoSum {
         int[] numbers = {3, 3, 6};
         int target = 9;
 
-        int[] newList = TwoSum(numbers, target);
+        int[] newList = TwoSumA(numbers, target);
         System.out.println("[" + newList[0] + ", " + newList[1] + "].");
         int[] anotherList = TwoSumHashMap(numbers, target);
         System.err.println("[" + anotherList[0] + ", " + anotherList[1] + "].");
@@ -26,7 +26,7 @@ public class TwoSum {
     //Output: [0,1]
     //Explanation: Because numbers[0] + numbers[1] == 9, we return [0, 1].
 
-    public static int[] TwoSum(int[] numbers, int target){
+    public static int[] TwoSumA(int[] numbers, int target){
         int[] list = new int[2];
         
         for (int i=0; i < numbers.length; i++) {
