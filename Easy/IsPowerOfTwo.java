@@ -3,7 +3,8 @@ public class IsPowerOfTwo {
     public static void main(String[] args){
 
         System.out.println(isPowerOfTwoMethod(1048576));
-
+        System.out.println(isPowerOfTwoMethod(1048573));
+        
     }
 
     public static boolean isPowerOfTwoMethod(int n){
